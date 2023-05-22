@@ -1,3 +1,5 @@
+import moment from "moment";
+
 const Footer = () => {
   return (
     <footer>
@@ -61,7 +63,10 @@ const Footer = () => {
       </div>
       <footer className="footer footer-center p-4 bg-neutral text-neutral-content">
         <div>
-          <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+          <p>
+            Copyright © {moment().format("YYYY")} - All right reserved by ACME
+            Industries Ltd
+          </p>
         </div>
       </footer>
     </footer>
