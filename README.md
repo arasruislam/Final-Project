@@ -13,6 +13,7 @@
 ## Branch -> Final-Project-3
 
 * Online Order Section with swiper js
+* added a simple banner section
 
 ### Useful Resources
 
