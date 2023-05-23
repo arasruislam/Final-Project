@@ -1,4 +1,6 @@
 import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
+import SimpleBanner from "../Extra/SimpleBanner";
 
 const Home = () => {
   return (
@@ -6,6 +8,16 @@ const Home = () => {
       {/* Banner */}
       <section>
         <Banner />
+      </section>
+
+      {/* Category */}
+      <section className="mb-20">
+        <Category />
+      </section>
+
+      {/* Banner */}
+      <section className="mb-20">
+        <SimpleBanner />
       </section>
     </div>
   );
