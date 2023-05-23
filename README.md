@@ -15,6 +15,10 @@
 * Online Order Section with swiper js
 * added a simple banner section
 
+## Branch -> Final-Project-4
+
+* create a sectionTitle components.
+
 ### Useful Resources
 
 _MomentJs_ -> [Go](https://momentjs.com/)
