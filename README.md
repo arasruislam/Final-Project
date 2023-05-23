@@ -10,7 +10,12 @@
 
 * add react responsive carousel on Home Page
 
+## Branch -> Final-Project-3
+
+* Online Order Section with swiper js
+
 ### Useful Resources
 
 _MomentJs_ -> [Go](https://momentjs.com/)
-_react-responsive-carousel -> [Go](https://github.com/leandrowd/react-responsive-carousel)
+_react-responsive-carousel_ -> [Go](https://github.com/leandrowd/react-responsive-carousel)
+_Swiper Js_ -> [Go](https://swiperjs.com/demos)
