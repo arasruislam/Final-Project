@@ -24,6 +24,14 @@
 * popular Menu on home page
 * Create shared Menu Item Section
 
+## Branch -> Final-Project-6
+
+* create Chef Recommendation section
+* create Call Us Section
+* create featured section
+* create testimonial section using Swipper Js
+* __Most Important__ make featured image parallax
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
