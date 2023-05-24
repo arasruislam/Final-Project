@@ -21,7 +21,8 @@
 
 ## Branch -> Final-Project-5
 
-* Create Shared Menu Section
+* popular Menu on home page
+* Create shared Menu Item Section
 
 ### Useful Resources
 
