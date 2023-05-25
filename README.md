@@ -37,6 +37,12 @@
 * Create a Menu Page component & create a menu routes
 * make dynamic title
 
+## Branch -> Final-Project-8
+
+* React parallax use
+* cover component create for all page/section
+* complete menu page design
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
@@ -44,3 +50,5 @@
 * _Swiper Js_ -> [Go](https://swiperjs.com/demos)
 * _React Rating_ -> [Go](https://github.com/smastrom/react-rating)
 * _React Icon_ -> [Go](https://react-icons.github.io/)
+* _React Parallax_ -> [Go](https://www.npmjs.com/package/react-parallax)
+* _React Helmet async (dynamic Page Title)_ [Go](https://www.npmjs.com/package/react-helmet-async)
