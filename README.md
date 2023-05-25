@@ -32,8 +32,15 @@
 * create testimonial section using Swipper Js
 * __Most Important__ make featured image parallax
 
+## Branch -> Final-Project-7
+
+* Create a Menu Page component & create a menu routes
+* make dynamic title
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
 * _react-responsive-carousel_ -> [Go](https://github.com/leandrowd/react-responsive-carousel)
 * _Swiper Js_ -> [Go](https://swiperjs.com/demos)
+* _React Rating_ -> [Go](https://github.com/smastrom/react-rating)
+* _React Icon_ -> [Go](https://react-icons.github.io/)
