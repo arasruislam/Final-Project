@@ -1,12 +1,12 @@
 import { Helmet } from "react-helmet-async";
-import Cover from "../Shared/Cover/Cover";
-import PopularMenu from "../Home/PopularMenu/PopularMenu";
-import SectionTitle from "../../Components/SectionTitle/SectionTitle";
-import bannerBg from "../../assets/menu/banner3.jpg";
-import dessertBg from "../../assets/menu/dessert-bg.jpeg";
-import pizzaBg from "../../assets/menu/pizza-bg.jpg";
-import saladBg from "../../assets/menu/salad-bg.jpg";
-import soupBg from "../../assets/menu/soup-bg.jpg";
+import Cover from "../../Shared/Cover/Cover";
+import PopularMenu from "../../Home/PopularMenu/PopularMenu";
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
+import bannerBg from "../../../assets/menu/banner3.jpg";
+import dessertBg from "../../../assets/menu/dessert-bg.jpeg";
+import pizzaBg from "../../../assets/menu/pizza-bg.jpg";
+import saladBg from "../../../assets/menu/salad-bg.jpg";
+import soupBg from "../../../assets/menu/soup-bg.jpg";
 
 const Menu = () => {
   return (
