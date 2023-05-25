@@ -47,6 +47,8 @@
 
 * Create custom hook useMenu
 * use custom hook dynamically every where.
+* dynamically data load from menu.json and show it menu page
+* dynamic cover load
 
 ### Useful Resources
 
