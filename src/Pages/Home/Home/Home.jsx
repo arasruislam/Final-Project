@@ -8,10 +8,17 @@ import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import Testimonial from "../Testimonial/Testimonial";
 import featuredImg from "../../../assets/home/featured.jpg";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
+      {/* Dynamic Page Title */}
+      <Helmet>
+        <title>Bistro Boss | Home</title>
+      </Helmet>
+
+      
       {/* Banner */}
       <section className="mb-20">
         <Banner />
@@ -55,7 +62,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${featuredImg})` }}
       >
         <div className="px-24 py-16 bg-slate-900 bg-opacity-50">
-          <SectionTitle Title={"FROM OUR MENU"} SubTitle={"Check it out"}/>
+          <SectionTitle Title={"FROM OUR MENU"} SubTitle={"Check it out"} />
           <Featured />
         </div>
       </section>
