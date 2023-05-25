@@ -34,12 +34,12 @@ const Home = () => {
         <Category />
       </section>
 
-      {/* Banner */}
+      {/* Simple Banner */}
       <section className="mb-20">
         <SimpleBanner />
       </section>
 
-      {/* Menu */}
+      {/* popular Menu */}
       <section className="mb-20">
         <SectionTitle Title={"FROM OUR MENU"} SubTitle={"Check it out"} />
         <PopularMenu />
