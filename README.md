@@ -67,3 +67,4 @@
 * _React Icon_ -> [Go](https://react-icons.github.io/)
 * _React Parallax_ -> [Go](https://www.npmjs.com/package/react-parallax)
 * _React Helmet async (dynamic Page Title)_ [Go](https://www.npmjs.com/package/react-helmet-async)
+* _React Tabs_ -> [Go](https://github.com/reactjs/react-tabs)
