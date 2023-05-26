@@ -38,22 +38,22 @@ const Menu = () => {
 
       {/* Dessert Section */}
       <section className="mb-12">
-        <MenuCategory title={"Dessert"} img={dessertBg} items={dessert} />
+        <MenuCategory title={"dessert"} img={dessertBg} items={dessert} />
       </section>
 
       {/* Pizza Section */}
       <section className="mb-20">
-        <MenuCategory title={"Pizza"} img={pizzaBg} items={pizza} />
+        <MenuCategory title={"pizza"} img={pizzaBg} items={pizza} />
       </section>
 
       {/* Salad Section */}
       <section className="mb-20">
-        <MenuCategory title={"Salad"} img={saladBg} items={salad} />
+        <MenuCategory title={"salad"} img={saladBg} items={salad} />
       </section>
 
       {/* Cover */}
       <section className="mb-20">
-        <MenuCategory title={"Soup"} img={soupBg} items={soup} />
+        <MenuCategory title={"soup"} img={soupBg} items={soup} />
       </section>
     </div>
   );

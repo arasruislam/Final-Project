@@ -50,6 +50,14 @@
 * dynamically data load from menu.json and show it menu page
 * dynamic cover load
 
+## Branch -> Final-Project-10
+
+* Create a order page
+* use react-tab package
+* create a food card component
+* create a orderTab component
+* create dynamic route on order page using category
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
