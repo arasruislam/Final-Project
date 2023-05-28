@@ -58,6 +58,11 @@
 * create a orderTab component
 * create dynamic route on order page using category
 
+## Branch -> Final-Project-11
+
+* fetch menu data from server.
+* add pagination code on orderTab
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)

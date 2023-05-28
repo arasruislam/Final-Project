@@ -22,7 +22,7 @@ const Order = () => {
 
   return (
     <div className="mb-20">
-      <Cover img={orderCoverImg} f title={"Order food"} />
+      <Cover img={orderCoverImg} title={"Order food"} />
 
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList>
