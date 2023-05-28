@@ -63,6 +63,11 @@
 * fetch menu data from server.
 * add pagination code on orderTab
 
+## Branch -> Final-Project-12
+
+* create login and sign up page.
+* dynamically add header navbar layout.
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
