@@ -73,6 +73,19 @@
 * install react-simple-captcha package
 * set up Recaptcha and validation Rechaptcha.
 
+## Branch -> Final-Project-14
+
+* add firebase config file.
+* Install firebase.
+* protect firebase configuration file.
+* create a context. providers
+
+* add onAuthStateChanged, createUser, loginUser, LogoutUser
+
+* create singUp page, route, component
+* use react hook form validation.
+* createUser function call.
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
@@ -84,3 +97,4 @@
 * _React Helmet async (dynamic Page Title)_ [Go](https://www.npmjs.com/package/react-helmet-async)
 * _React Tabs_ -> [Go](https://github.com/reactjs/react-tabs)
 * _React Simple Captcha_ [Go](https://www.npmjs.com/package/react-simple-captcha)
+* _React Hook Form_ [Go](https://react-hook-form.com/)
