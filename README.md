@@ -68,6 +68,11 @@
 * create login and sign up page.
 * dynamically add header navbar layout.
 
+## Branch -> Final-Project-13
+
+* install react-simple-captcha package
+* set up Recaptcha and validation Rechaptcha.
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
@@ -78,3 +83,4 @@
 * _React Parallax_ -> [Go](https://www.npmjs.com/package/react-parallax)
 * _React Helmet async (dynamic Page Title)_ [Go](https://www.npmjs.com/package/react-helmet-async)
 * _React Tabs_ -> [Go](https://github.com/reactjs/react-tabs)
+* _React Simple Captcha_ [Go](https://www.npmjs.com/package/react-simple-captcha)
