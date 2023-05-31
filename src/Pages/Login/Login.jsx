@@ -1,8 +1,39 @@
+import { useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-
+import {
+  loadCaptchaEnginge,
+  LoadCanvasTemplate,
+  validateCaptcha,
+} from "react-simple-captcha";
 
 const Login = () => {
+  const captchaRef = useRef(null);
+  const [disabled, setDisabled] = useState(true);
+
+  // Captcha
+  useEffect(() => {
+    loadCaptchaEnginge(6);
+  }, []);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const email = form.email.value;
+    const password = form.password.value;
+    const user = { email, password };
+    console.log(user);
+  };
+
+  const handleValidationCaptcha = () => {
+    const user_captcha_value = captchaRef.current.value;
+    if (validateCaptcha(user_captcha_value)) {
+      setDisabled(false);
+    } else {
+      setDisabled(true);
+    }
+  };
+
   return (
     <>
       <Helmet>
@@ -19,7 +50,7 @@ const Login = () => {
             </p>
           </div>
           <div className="card md:w-1/2 max-w-sm shadow-2xl bg-base-100">
-            <form className="card-body">
+            <form onSubmit={handleLogin} className="card-body">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -48,20 +79,26 @@ const Login = () => {
                 </label>
               </div>
               <div className="form-control">
-                {/* <label className="label">
+                <label className="label">
                   <LoadCanvasTemplate />
-                </label> */}
+                </label>
                 <input
-                  
+                  ref={captchaRef}
                   type="text"
                   name="captcha"
                   placeholder="type the captcha above"
                   className="input input-bordered"
                 />
+                <button
+                  onClick={handleValidationCaptcha}
+                  className="btn btn-outline btn-xs mt-2"
+                >
+                  Validate
+                </button>
               </div>
               <div className="form-control mt-6">
                 <input
-                  
+                  disabled={disabled}
                   className="btn btn-primary"
                   type="submit"
                   value="Login"
