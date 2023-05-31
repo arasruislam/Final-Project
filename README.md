@@ -86,6 +86,15 @@
 * use react hook form validation.
 * createUser function call.
 
+## Branch -> Final-Project-15
+
+* conditional login/logout
+* install sweet alert
+* private route setup
+* redirect user
+* create secret page.
+* update user profile. on firebase
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
@@ -98,3 +107,4 @@
 * _React Tabs_ -> [Go](https://github.com/reactjs/react-tabs)
 * _React Simple Captcha_ [Go](https://www.npmjs.com/package/react-simple-captcha)
 * _React Hook Form_ [Go](https://react-hook-form.com/)
+* _Sweet Alert_ [Go](https://sweetalert2.github.io/#download)
