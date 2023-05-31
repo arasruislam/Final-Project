@@ -95,6 +95,14 @@
 * create secret page.
 * update user profile. on firebase
 
+## Branch -> Final-Project-16
+
+* CRUD Operation (query, filter)
+* add to card.
+* fetch route to post the data
+* create a custom hook. [useCart.jsx]
+* install TanStack query
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
@@ -108,3 +116,4 @@
 * _React Simple Captcha_ [Go](https://www.npmjs.com/package/react-simple-captcha)
 * _React Hook Form_ [Go](https://react-hook-form.com/)
 * _Sweet Alert_ [Go](https://sweetalert2.github.io/#download)
+* _TanStack Query_ [Go](https://tanstack.com/query/latest/docs/react)
