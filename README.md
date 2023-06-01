@@ -107,6 +107,12 @@
 
 * add tanStack query code.
 
+## Branch -> Final-Project-18
+
+* use the useCart hook to show all add to cart food item
+* load data from useCart query and show on navbar and refetch the data.
+* create dashboard layout
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
