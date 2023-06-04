@@ -113,6 +113,15 @@
 * load data from useCart query and show on navbar and refetch the data.
 * create dashboard layout
 
+## Branch -> Final-Project-19
+
+* install Daisy ui latest version 3.0.0
+* design dashboard.
+* create myCart page & myCard design
+* show total, total price and item list in a table.
+* learn about [reduce] in JS
+* create handleDeleteItem
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)
