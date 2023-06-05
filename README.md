@@ -122,6 +122,11 @@
 * learn about [reduce] in JS
 * create handleDeleteItem
 
+## Branch -> Final-Project-20
+
+* make dashboard private route.
+* fetch user route and do post method.
+
 ### Useful Resources
 
 * _MomentJs_ -> [Go](https://momentjs.com/)

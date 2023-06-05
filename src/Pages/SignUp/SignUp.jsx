@@ -25,19 +25,33 @@ const SignUp = () => {
 
     createUser(email, password)
       .then((result) => {
-        const user = result.user;
-        console.log(user);
-        reset();
+        const loggedUser = result.user;
+        console.log(loggedUser);
+
         updateUser(name, photoURL)
           .then(() => {
-            Swal.fire({
-              position: "top-end",
-              icon: "success",
-              title: "user created successful",
-              showConfirmButton: false,
-              timer: 1500,
-            });
-            navigate("/");
+            const userInfo = { name: name, email: email };
+            fetch("http://localhost:5000/users", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(userInfo),
+            })
+              .then((res) => res.json())
+              .then((data) => {
+                if (data.insertedId) {
+                  reset();
+                  Swal.fire({
+                    position: "top-end",
+                    icon: "success",
+                    title: "user created successful",
+                    showConfirmButton: false,
+                    timer: 1500,
+                  });
+                  navigate("/");
+                }
+              });
           })
           .catch((error) => console.log(error));
       })
